@@ -1,0 +1,389 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+*{
+font-family: sans-serif ;
+}
+.row {
+    background: url(./image/header_bg\ 1.png) ;
+    height: auto;
+    max-width: 100%;
+    background-size: cover;
+      
+
+
+
+    
+}
+
+.row .header ul button {
+    width: 200px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 30px;
+    background: #68BF3C;
+    color: white;
+    outline: none;
+    border: none;
+}
+.header ul{
+list-style: none;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    margin: 20px 20px;
+
+    
+    text-transform: uppercase;
+}
+
+.header{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+    
+}
+
+.logo a{
+    font-size: 24px;
+    font-weight: 700;
+}
+.salom{
+    color: white;
+    padding: 0;
+}
+.salom h4{
+    font-size: 18px;
+    padding: 0px;
+
+}
+.salom h1{
+    padding: 0px;
+    font-weight:900 ;
+    font-size: 72px;
+    margin: 0;
+}
+.salom button{
+    width: 200px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 30px;
+    background: #68BF3C;
+    color: white;
+    outline: none;
+    border: none;
+    
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    max-width: 50.5%;
+    height: auto;
+    
+    align-items: center;
+    padding: 140px 20px;
+}
+.ko{
+    text-align: left;
+    margin:50px 0px;
+}
+.qiz{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+.ogl{
+    display: flex;
+    max-width: 70%;
+}
+.lg{
+    display: flex;
+    align-items: center;
+}
+.yozuv h3{
+    color: #68BF3C;
+    font-size: 36px;
+
+}
+.yozuv p{
+    color:  #BDBDBD;
+    font-size: 18px;
+    line-height: 36px;
+}
+.lg h4{
+    font-size: 24px;
+    color:  #BDBDBD;
+
+}
+.qiz{
+    margin: 60px 0;
+}
+.p1{
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+
+.column {
+    display: flex;
+    align-items: center;
+    max-width: auto;
+    justify-content: center;
+    margin: 40px 0px;
+}
+.butn button{
+    width: 200px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 30px;
+    background: #68BF3C;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+
+.butn h3{
+font-size: 30px;
+font-weight: 700;
+line-height: 36.57px;
+text-align: left;
+color:#A6A6A6;
+
+
+}
+.butn{
+    padding: 0 100px;
+}
+.yz h2{
+color: #A6A6A6;  
+font-size: 30px;
+font-weight: 700;
+line-height: 36.57px;
+text-align: left;
+
+}
+.g1 img{
+    max-width: 100%;
+}
+.lg img{
+    max-width: 100%;
+}
+
+.column .img img{
+    max-width: 100%;
+}
+.yz {
+    margin: 0 25px;
+}
+.yz p{
+    font-size: 14px;
+  line-height: 10px;
+  font-weight: bold;
+    color: #A6A6A6;
+}
+.pizza h3{
+   color: #68BF3C;
+font-size: 36px;
+font-weight: 700;
+line-height: 43.88px;
+text-align: left;
+
+}
+.grid{
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+    grid-template-columns: auto auto auto;
+    padding: 90px 0px;
+}
+.g1{
+    text-align: center;
+}
+.g1 h5{
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    color: #A6A6A6;
+  }
+  .g1 p{
+    color: #A6A6A6;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+text-align: center;
+
+  }
+  .footer ul{
+    list-style: none;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+  }
+  .footer{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    max-width: 90%;
+    
+    margin: auto;
+    
+    
+  }
+  .footer a{
+    margin: 0 20px;
+    
+  }
+  .fn{
+    background: black;
+
+    max-width: 100%;
+  }
+  .footer button{
+    width: 200px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 30px;
+    background: #68BF3C;
+    color: white;
+    outline: none;
+    border: none;
+  }
+  .footer a{
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+  }
+  .fn p{
+    background: black;
+    color: white;
+    display: flex;
+    font-weight: 200;
+    justify-content: center;
+    margin: 0px;
+    padding: 20px 0px;
+    opacity: 30%;
+  }
+  @media screen and (max-width:1100px) {
+    .grid{
+        grid-template-columns: auto;
+        display: block;
+    }
+    .text{
+        display: flex;
+        justify-content: center;
+    }
+    
+  }
+  @media screen and (max-width:1000px){
+    .column{
+        display: block;
+    }
+    .butn {
+        padding: 0 50px;
+        
+    }
+    .yz {
+        text-align: center;
+    }
+    .text{
+        max-width: 100%
+    }
+  }
+  @media screen and (max-width:800px) {
+    .ogl{
+        display: block;
+    }
+    .image{
+        display: flex;
+        justify-content: center;
+    }
+
+  }
+  @media screen and (max-width:765px) {
+    .footer{
+        display: block;
+    }
+    .footer ul{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    
+  }
+  @media screen and (max-width:735px){
+   .row .header ul button{
+        width: 150px;
+
+    }
+  }
+  @media screen and (max-width:680px){
+    .row .header ul{
+        padding: 0;
+
+    }
+    .ko{
+        text-align: center;
+    }
+    
+  .text .salom .a {
+        display: flex;
+       
+       
+        justify-content: center;
+    }
+
+  }
+  @media screen and (max-width:635px){
+    .row .header ul{
+        padding: 0;
+
+    }
+    .logo a{
+        margin: 0;
+    }
+  }
+  @media screen  and (max-width:590px) {
+    .header ul li a{
+      display: none;
+    }
+    
+  }
+  @media screen and (max-width:520px) {
+    .footer ul li a{
+        margin: 20px 0px;
+    }
+  }
+  @media screen and (max-width:370px) {
+  .lg > img{
+    max-width: 100px;
+    height: 100px;
+
+  }
+  .image img{
+    max-width: 100%;
+}
+  }
